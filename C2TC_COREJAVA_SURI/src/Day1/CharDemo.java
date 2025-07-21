@@ -1,19 +1,26 @@
-package Day2;
+package Day1;
 
-public class NestedIfElse {
-	public static void main(String[] args) {
-		int a=32, b=16, c=57;
-		System.out.println("The largest number is");
-		if (a > b) {
-			if (a > c)
-				System.out.println(a);
-			else
-				System.out.println(c);
-		} else {
-			if (c > b)
-				System.out.println(c);
-			else
-				System.out.println(b);
-}
+public class CharDemo {
+
+		public static void main(String[] args) {
+			// assigning single character literal
+			char ch = 'a';
+			System.out.println(ch);
+
+			// assigning number to char
+			char ch1 = 65;
+			System.out.println(ch1);
+
+			// assigning unicode to char
+			char var1 = '\u00A7';
+			System.out.println(var1);
+
+			// Unicode representation
+			char var2 = '\u20AC';
+			System.out.println(var2);
+
+			// ASCI code representation
+			int a = 'A';
+			System.out.println(a);
+		}
 	}
-}
