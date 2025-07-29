@@ -6,6 +6,7 @@ public class AdditionDemo {
 		int a;
 		int b;
 		int c;
+		int d;
 		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter the values: ");
