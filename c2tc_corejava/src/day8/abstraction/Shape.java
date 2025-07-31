@@ -1,10 +1,9 @@
-package day8.abstraction;
+package com.tnsif.dayeight.abstraction;
 
-public class Shape {
-	
- protected float area;
-     
-     //abstract method 
+public abstract class Shape {
+    protected float area;
+    
+    //abstract method 
 	 abstract void calArea();
 	 
 	 //concrete method
@@ -12,5 +11,4 @@ public class Shape {
 	 {
 		 System.out.println("Area of shape is "+area);
 	 }
-
 }

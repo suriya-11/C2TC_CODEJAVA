@@ -1,6 +1,6 @@
-package day8.abstraction;
+package com.tnsif.dayeight.abstraction;
 
-public class Square extends Shape  {
+public class Square extends Shape{
 	private float side;
 	public Square()
 	{
@@ -16,4 +16,3 @@ public class Square extends Shape  {
 		super.area=side*side;		
 	}
 }
-
